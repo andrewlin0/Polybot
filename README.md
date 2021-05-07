@@ -1,1 +1,42 @@
 # Polybot
+
+## Purpose
+
+This is a project for Data Science Systems (DS 3002) at UVA. This is a Twitter bot that will give you the current weather details of the location your tweet or any U.S. city,  and 7 random restaurants from your location and their details. This bot retrieves tweets from its mentions every 20 seconds, so you may have to wait at most 20 seconds for a repsonse. *Unfortunately, grpcio is failing to build with the rest of the project, sothe translation feature is not active right now.*
+
+## How to Use
+
+This bot is deployed to an EC2 instance. You can just tweet at the bot now and it will return DMs to your Twitter account.
+
+If you want to build it in Docker yourself, download Docker if you haven't already and then continue below.
+
+Download the code and the Dockerfile. This bot uses the Twitter API, Google Places API, and OpenWeather API. You will need to create a Twitter Developer Account for the Twitter API, a Google Cloud Platform (GCP) account for the Google Places API, and an OpenWeather account for the OpenWeather API. 
+
+Twitter has a consumer key, secret consumer key, token, and secret token. Get all 4 of those. 
+
+For Google, login to your GCP account and search for Places API. Enable it and then go to Navigation Menu -> APIs & Services -> Credentials. Click on Create Credentials -> API Key. Now you have an API key to use. 
+
+OpenWeather only has one key to get. After you collect all the necessary keys do one of the following:
+
+### Option 1:
+
+1. The DockerFile has dummmy inputs for all the keys. Put each one of your keys in the correct environment variable in the DockerFile. The first four belong to your Twitter Keys, the next one is where you put your OpenWeather key, and the last is Google Places API's key. Fill in those values with your keys and you can run it locally.
+
+2. Type **docker build . -t polybot** to build
+
+3. Type **docker run -it polybot** to run
+
+### Option 2:
+
+1. Type **docker build .-t polybot** to build
+
+2. Type **docker run -it -e API_KEY="YourTwitterAPIKey" \
+  **-e API_SECRET_KEY="YourTwitterAPISecretKey" \ 
+  **-e ACCESS_TOKEN="YourTwitterToken" \
+  **-e ACCESS_TOKEN_SECRET="YourTwitterSecretToken" \
+  **-e OPEN_WEATHER_KEY="YourOpenWeatherKey" \
+  **-e GOOGLE_PLACES_API="YourPlacesAPIKey"**
+
+This should make the bot active and you can test things out.
+
+
