@@ -18,7 +18,7 @@ For Google, login to your GCP account and search for Places API. Enable it and t
 
 OpenWeather only has one key to get. After you collect all the necessary keys do one of the following:
 
-Follow the instructions in the **Using Tweepy** in this article https://realpython.com/twitter-bot-python-tweepy/. You will be able to install Tweepy and make a virtual environment. Then:
+Follow the instructions in the **Using Tweepy** section in this article https://realpython.com/twitter-bot-python-tweepy/. You will be able to install Tweepy and make a virtual environment. Then:
 
 ### Option 1:
 
