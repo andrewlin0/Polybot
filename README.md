@@ -37,7 +37,7 @@ Follow the instructions in the **Using Tweepy** section in this article https://
   -e ACCESS_TOKEN="YourTwitterToken" \
   -e ACCESS_TOKEN_SECRET="YourTwitterSecretToken" \
   -e OPEN_WEATHER_KEY="YourOpenWeatherKey" \
-  -e GOOGLE_PLACES_API="YourPlacesAPIKey"**
+  -e GOOGLE_PLACES_API="YourPlacesAPIKey" polybot**
 
 This should make the bot active and you can test things out.
 
