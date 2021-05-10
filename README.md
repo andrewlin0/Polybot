@@ -41,7 +41,7 @@ This should make the bot active and you can test things out.
 
 
 
-Everything it can do (minus translation):
+## Everything it can do (minus translation):
 
 - Tweet "help" or "info" at it to make polybot give you a rundown of its functions
 - Tweet "hi", "hey", "hello", or "howdy" and polybot will say hi back
