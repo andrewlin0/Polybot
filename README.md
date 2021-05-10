@@ -6,7 +6,11 @@ This is a project for Data Science Systems (DS 3002) at UVA. This is a Twitter b
 
 The Twitter bot is @Andrew31621328.
 
-## How to Use
+## How It Works
+
+Using APIs from Google, Twitter, and OpenWeather, this bot can do a variety of things. It was coded in Python and then containerized in Docker and deployed to an AWS EC2 instance. To use the bot, tweet at it with one of the valid statements and it will DM you a response depending on what you said.
+
+## How to Use the Code
 
 This bot is deployed to an EC2 instance. You can just tweet at the bot now and it will return DMs to your Twitter account.
 
@@ -42,7 +46,6 @@ Follow the instructions in the **Using Tweepy** section in this article https://
   -e GOOGLE_PLACES_API="YourPlacesAPIKey" polybot**
 
 This should make the bot active and you can test things out.
-
 
 
 ## Everything it can do (minus translation):
