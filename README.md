@@ -18,6 +18,8 @@ For Google, login to your GCP account and search for Places API. Enable it and t
 
 OpenWeather only has one key to get. After you collect all the necessary keys do one of the following:
 
+Follow the instructions in the **Using Tweepy** in this article https://realpython.com/twitter-bot-python-tweepy/. You will be able to install Tweepy and make a virtual environment. Then:
+
 ### Option 1:
 
 1. The DockerFile has dummmy inputs for all the keys. Put each one of your keys in the correct environment variable in the DockerFile. The first four belong to your Twitter Keys, the next one is where you put your OpenWeather key, and the last is Google Places API's key. Fill in those values with your keys and you can run it locally.
@@ -52,9 +54,6 @@ This should make the bot active and you can test things out.
 - Tweet "coat" or "jacket" and polybot will respond with if you need a coat or jacket
 - Tweet "umbrella" and polybot will respond with if you need an umbrella
 - Tweet something with "restaurants" and "nearby" or "near" and "me" and polybot will give you 7 random restaurants in your location and their details
-
-
-
 
 
 
