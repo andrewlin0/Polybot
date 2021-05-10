@@ -4,7 +4,7 @@
 
 This is a project for Data Science Systems (DS 3002) at UVA. This is a Twitter bot that will give you the current weather details of the location your tweet or any U.S. city,  and 7 random restaurants from your location and their details. This bot retrieves tweets from its mentions every 20 seconds, so you may have to wait at most 20 seconds for a repsonse. *Unfortunately, grpcio is failing to build with the rest of the project, sothe translation feature is not active right now.*
 
-The Twitter bot is under Andrew31621328.
+The Twitter bot is @Andrew31621328.
 
 ## How to Use
 
