@@ -40,3 +40,21 @@ OpenWeather only has one key to get. After you collect all the necessary keys do
 This should make the bot active and you can test things out.
 
 
+
+Everything it can do (minus translation):
+
+- Tweet "help" or "info" at it to make polybot give you a rundown of its functions
+- Tweet "hi", "hey", "hello", or "howdy" and polybot will say hi back
+- Tweet "How many times have you been used?" and polybot will reply with the number of people he has helped.
+- Tweet "who made you" and polybot will respond with an answer
+- Tweet "what's the weather" or "weather" with your location on and polybot will DM you details about the current weather in your location
+- Tweet "what's the weather in <location>" and polybot will DM you details about the current weather in <location>
+- Tweet "coat" or "jacket" and polybot will respond with if you need a coat or jacket
+- Tweet "umbrella" and polybot will respond with if you need an umbrella
+- Tweet something with "restaurants" and "nearby" or "near" and "me" and polybot will give you 7 random restaurants in your location and their details
+
+
+
+
+
+
