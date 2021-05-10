@@ -31,11 +31,11 @@ OpenWeather only has one key to get. After you collect all the necessary keys do
 1. Type **docker build .-t polybot** to build
 
 2. Type **docker run -it -e API_KEY="YourTwitterAPIKey" \
-  **-e API_SECRET_KEY="YourTwitterAPISecretKey" \ 
-  **-e ACCESS_TOKEN="YourTwitterToken" \
-  **-e ACCESS_TOKEN_SECRET="YourTwitterSecretToken" \
-  **-e OPEN_WEATHER_KEY="YourOpenWeatherKey" \
-  **-e GOOGLE_PLACES_API="YourPlacesAPIKey"**
+  -e API_SECRET_KEY="YourTwitterAPISecretKey" \ 
+  -e ACCESS_TOKEN="YourTwitterToken" \
+  -e ACCESS_TOKEN_SECRET="YourTwitterSecretToken" \
+  -e OPEN_WEATHER_KEY="YourOpenWeatherKey" \
+  -e GOOGLE_PLACES_API="YourPlacesAPIKey"**
 
 This should make the bot active and you can test things out.
 
